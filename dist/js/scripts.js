@@ -53,4 +53,17 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    $('#carouselExampleControls1').carousel();
+    $('#carouselExampleControls2').carousel();
+    $('#carouselExampleControls3').carousel();
+    $('#carouselExampleControls4').carousel();
+    $('#carouselExampleControls5').carousel();
+    $('#carouselExampleControls6').carousel();
+    $('#carouselExampleControls7').carousel();
+    $('#carouselExampleControls8').carousel();
+    $('#carouselExampleControls9').carousel();
 })(jQuery); // End of use strict
+
+
+console.log('holaaaaaaa');

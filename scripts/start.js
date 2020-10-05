@@ -19,6 +19,6 @@ function success() {
     console.log('Success');
 }
 
-function failure() {
-    console.log('Failure');
+function failure(err) {
+    console.log('Failure', err);
 }
